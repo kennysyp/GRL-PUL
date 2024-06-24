@@ -117,7 +117,7 @@ def GAAE(args_model, Adjacency_Matrix_raw, Features, train_adj, pos_test, neg_te
                max_ap = ap
                max_acc, max_precision, max_recall, max_mcc, max_f1, best_threshold = acc, precision, recall, mcc, f1, threshold
 
-    print('max_auc:', max_auc, 'ap:', max_ap,'acc:', max_acc,'precision:', max_precision,'recall:', max_recall, 'max_mcc:', max_mcc, 'f1:', max_f1, 'best_threshold:', best_threshold)
+    #print('max_auc:', max_auc, 'ap:', max_ap,'acc:', max_acc,'precision:', max_precision,'recall:', max_recall, 'max_mcc:', max_mcc, 'f1:', max_f1, 'best_threshold:', best_threshold)
     #print(f"emb_shape:{emb.shape}")
     emb = get_emb(pos_edges_indecies)
 
